@@ -1,0 +1,115 @@
+#body {
+    background-color: white;
+    margin: 0px;
+    font-family: arial;
+}
+
+#headerContainer {
+    display: flex;
+}
+
+#logo {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#headerElement {
+    font-size: 40px;
+    text-align: left;
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-bottom: .5%;
+    flex: 40%;
+}
+
+#searchElement {
+    flex: 80%;
+    font-size: 25px;
+    margin-top: 1%;
+    float: left;
+}
+
+#helpElement {
+    flex: 10%;
+    margin-top: 1%;
+    font-size: 25px;
+    margin-right: 1%;
+}
+
+.imageAttributes {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.headingAttributes {
+    position: absolute;
+    font-size: 50px;
+    top: 200px;
+    text-align: center;
+    padding-bottom: 0%;
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+
+.subtext {
+    font-size: 25px;
+    padding-top: 0%;
+}
+
+.subHeader {
+    display: flex;
+    font-size: 30px;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.gameList {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+a:link {
+    color: darkred;
+}
+
+a:visited {
+    color: darkred;
+}
+
+#columnContainer {
+    flex: 100%;
+    display: flex;
+    margin-top: 1%;
+}
+
+#adColumnLeft {
+    display: flex;
+    flex: 20%;
+    justify-content: center;
+}
+
+#adColumnRight {
+    display: flex;
+    flex: 20%;
+    justify-content: center;
+}
+
+#gameColumn1 {
+    display: flex;
+    flex: 30%;
+    justify-content: center;
+    border-left: black solid 2px;
+    border-right: black solid 1px;
+    height: 600px;
+}
+
+#gameColumn2 {
+    display: flex;
+    flex: 30%;
+    justify-content: center;
+    border-left: black solid 1px;
+    border-right: black solid 2px;
+    height: 600px;
+}
