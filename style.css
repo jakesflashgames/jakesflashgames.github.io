@@ -2,6 +2,7 @@
     background-color: white;
     margin: 0px;
     font-family: arial;
+    overflow-x: hidden;
 }
 
 #headerContainer {
@@ -70,12 +71,13 @@
     margin-top: 5px;
 }
 
-a:link {
-    color: darkred;
+.listItem {
+    margin-top: 5px;
 }
 
-a:visited {
+.gameLink {
     color: darkred;
+    text-decoration: none;
 }
 
 #columnContainer {
@@ -112,4 +114,24 @@ a:visited {
     border-left: black solid 1px;
     border-right: black solid 2px;
     height: 600px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background-color: darkred;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.footerLink {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
