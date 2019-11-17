@@ -20,7 +20,7 @@
     margin-top: .5%;
     margin-left: 1%;
     margin-bottom: .5%;
-    flex: 40%;
+    flex: 90%;
 }
 
 #searchElement {
@@ -31,10 +31,10 @@
 }
 
 #helpElement {
-    flex: 10%;
     margin-top: 1%;
     font-size: 25px;
-    margin-right: 1%;
+    margin-right: 0%;
+    flex: 8%;
 }
 
 .imageAttributes {
@@ -104,7 +104,7 @@
     justify-content: center;
     border-left: black solid 2px;
     border-right: black solid 1px;
-    height: 350px;
+    height: 400px;
 }
 
 #gameColumn2 {
@@ -113,7 +113,7 @@
     justify-content: center;
     border-left: black solid 1px;
     border-right: black solid 2px;
-    height: 350px;
+    height: 400px;
 }
 
 #footer {
