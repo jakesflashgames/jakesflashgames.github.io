@@ -90,12 +90,20 @@
     display: flex;
     flex: 20%;
     justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #adColumnRight {
     display: flex;
     flex: 20%;
     justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #gameColumn1 {
