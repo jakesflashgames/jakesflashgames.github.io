@@ -112,7 +112,7 @@
     justify-content: center;
     border-left: black solid 2px;
     border-right: black solid 1px;
-    height: 475px;
+    height: 500px;
 }
 
 #gameColumn2 {
@@ -121,7 +121,7 @@
     justify-content: center;
     border-left: black solid 1px;
     border-right: black solid 2px;
-    height: 475px;
+    height: 500px;
 }
 
 #footer {
